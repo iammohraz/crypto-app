@@ -9,6 +9,6 @@ const axios_ins = axios.create({
     baseURL: 'https://api.coingecko.com/api/v3/'
 })
 
-export default {axios_ins}
+export {axios_ins}
 
 createApp(App).use(router).mount('#app')
